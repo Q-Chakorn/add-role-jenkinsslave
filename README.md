@@ -1,4 +1,4 @@
-# Jenkins Single Kubernetes Cluster
+# Add role jenkins-slave
 
 Helm chart นี้ใช้เตรียมสิทธิ์ Kubernetes ให้ Jenkins controller หรือ Jenkins Kubernetes plugin สามารถสร้างและควบคุม agent pod ภายใน namespace ที่ติดตั้ง chart โดยสร้างเฉพาะ `ServiceAccount`, `Role` และ `RoleBinding`
 
